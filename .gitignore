@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+*.swp
+*.swo
+*~
+.vimrc
+
+# Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temp/Cache
+*.tmp
+.cache/
+.temp/
+
+# Personal configs
+.zshrc.local
+personal-aliases.zsh
+my-aliases.zsh
+
+# User-specific directories
+custom/
+local/

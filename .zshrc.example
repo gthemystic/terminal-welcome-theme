@@ -1,0 +1,21 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# 🎭 THE COSMIC TERMINAL CONFIGURATION
+# ═══════════════════════════════════════════════════════════════════════════════
+# "Where every shell command performs its mystical purpose..."
+# - The Spellbinding Museum Director of Terminal Enchantments
+#
+# This is the MAIN entry point for your zsh configuration!
+# All modules in ~/.zshrc.d/ are automatically loaded in numerical order.
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# 🔄 Module Loading System
+# Automatically sources all files in ~/.zshrc.d/ in numerical order (00-99)
+export ZSH_MOD_DIR="${ZSH_MOD_DIR:-$HOME/.zshrc.d}"
+typeset -g ZSHRC_START_TIME=$(($(date +%s%N)/1000000))
+for module in "$ZSH_MOD_DIR"/[0-9][0-9]-*.zsh(N); do
+  [[ -f "$module" ]] && source "$module"
+done
+
+# 🎯 Add your own custom configuration below this line!
+# This way it won't interfere with the modular system
+# ═══════════════════════════════════════════════════════════════════════════════
