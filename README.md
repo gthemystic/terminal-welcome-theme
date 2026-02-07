@@ -19,10 +19,16 @@ Every time you open a terminal, you get a unique friend greeting you with style.
 
 ## 🎬 Live Demo
 
-> **✨ Images load beautifully in iTerm2!** Check the screenshot above—real Pikachu image in action!
+### 📸 Real iTerm2 Screenshot - Pikachu in Action!
 
-<details open>
-<summary><b>More examples below (Expand for full demo)</b></summary>
+![Terminal Welcome Theme - Pikachu](./assets/screenshots/pikachu-welcome.png)
+
+**⚡ This is REAL** - No ASCII art, no emojis—actual Pikachu image loading beautifully in iTerm2!
+
+Your terminal gets a random character each session (Pikachu shown here), plus system stats, git activity, developer jokes, and performance metrics. All in under 0.75s startup time! 🚀
+
+<details>
+<summary><b>See ASCII art examples too (Click to expand)</b></summary>
 
 ### ⚡ Pikachu Session (Electric Energy!)
 ```
